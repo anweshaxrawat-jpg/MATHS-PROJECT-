@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: light;
+}
+
+body {
+  background-color: #F7F9F8;
+  color: #233746;
+  margin: 0;
+  padding: 0;
+}
+
+/* KaTeX custom sizing and contrast for academic presentation */
+.katex {
+  font-size: 1.08em;
+  text-rendering: geometricPrecision;
+}
+
+.katex-display {
+  margin: 0.5em 0 !important;
+}
+
+/* Clean scrollbar for math containers */
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F9F8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

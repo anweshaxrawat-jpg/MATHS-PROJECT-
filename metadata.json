@@ -1,0 +1,8 @@
+{
+  "name": "PDE Root Analyzer – Auxiliary Equation & Root Behaviour",
+  "description": "An interactive educational dashboard demonstrating how homogeneous linear second-order PDEs with constant coefficients are solved via the auxiliary equation, classifying root behaviour, and visualizing complementary functions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
